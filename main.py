@@ -10,26 +10,25 @@ import os
 
 class DBHelper:
     def __init__(self):
-        # self.con = mysql.connector.connect(
-        # # MySQL Server IP Address
-        # host="localhost",
-        # # MySQL Username
-        # user="MySqlUsername",
-        # # MySQL Server Port
-        # port = 3306,
-        # # MySQL Password
-        # passwd="mySQLPassword",
-        # # MySQL DB Name
-        # database = "mySQLDBName",
-        # auth_plugin = 'root',
-        # autocommit = True
-        # )
-        # query = 'create table if not exists Patients(UserID int, `Pname` varchar(200),phone varchar(20),earning int)'
-        # cur = self.con.cursor()
-        # cur.execute(query)
+        self.con = mysql.connector.connect(
+        # MySQL Server IP Address
+        host="localhost",
+        # MySQL Username
+        user="MySqlUsername",
+        # MySQL Server Port
+        port = 3306,
+        # MySQL Password
+        passwd="mySQLPassword",
+        # MySQL DB Name
+        database = "mySQLDBName",
+        auth_plugin = 'root',
+        autocommit = True
+        )
+        query = 'create table if not exists Patients(UserID int, `Pname` varchar(200),phone varchar(20),earning int)'
+        cur = self.con.cursor()
+        cur.execute(query)
         
-        # print("created")
-        # # self.con.commit()
+        # self.con.commit()
     def insert_user(self,UserID,name,phone,earning):
         query = 'insert into Patients(UserID,`Pname`,`phone`,earning) values(%s,%s,%s,%s)'
         cur = self.con.cursor()
