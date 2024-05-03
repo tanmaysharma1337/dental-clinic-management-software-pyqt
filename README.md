@@ -40,8 +40,35 @@ Features:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username/dental-clinic-management.git
+   git clone https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt.git
 
 2. Install Required packages
     ```sh
     pip install PyQt5 mysql-connector-python opencv-python
+
+3. Set up MySQL database using database_schema.sql.
+4. Update database connection details in config.py.
+5. Run the application:
+   ```sh
+   python main.py
+### Usage
+Launch the application and navigate through functionalities using the user interface.
+Manage appointments, view earnings, access teeth chart, and utilize intra-oral camera feature.
+Keep the database connection active for real-time updates.
+Contributing
+Contributions are welcome! Open issues or submit pull requests to enhance functionality, improve code quality, or fix bugs.
+
+### Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+### License
+Distributed under the MIT License. See MIT License for more information.
+
+### Contact
+Project Link: https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/
+
+### Acknowledgments
+This project utilizes various libraries and frameworks to provide efficient functionality. Special thanks to the authors of these resources.
