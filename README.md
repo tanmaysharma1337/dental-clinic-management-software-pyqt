@@ -4,18 +4,17 @@ A comprehensive Python-based application for managing dental clinic operations e
 <br/>
 <br/>
 <br/>
-<a href="https://github.com/your_username/dental-clinic-management">View Demo</a>  
-<a href="https://github.com/your_username/dental-clinic-management/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
-<a href="https://github.com/your_username/dental-clinic-management/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
+<a href="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt">View Demo</a>  
+<a href="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
+<a href="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
 </p>
 
 ## About The Project
 
 <p align="center">
-  <img width="400px" src="https://github.com/your_username/dental-clinic-management/assets/clinic_dashboard.png"/>
-</p>
-<p align="center">
-  <img src="https://github.com/your_username/dental-clinic-management/assets/patient_records.png"/>
+  <img width="400px" src="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/blob/main/assets/Main-Window.png"/>
+  <img width="400px" src="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/blob/main/assets/dental_chart_window.png"/>
+  <img width="400px" src="https://github.com/tanmaysharma1337/dental-clinic-management-software-pyqt/blob/main/assets/intraoral-window.png"/>
 </p>
 
 Manage your dental clinic seamlessly with this software. From appointments to earnings, patient records to teeth charts, this application covers it all.
@@ -59,10 +58,16 @@ Contributing
 Contributions are welcome! Open issues or submit pull requests to enhance functionality, improve code quality, or fix bugs.
 
 ### Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+- Create your Feature Branch
+  ```sh
+  git checkout -b feature/AmazingFeature
+- Commit your Changes
+  ```sh
+  git commit -m 'Add some AmazingFeature'
+- Push to the Branch
+  ```sh
+  git push origin feature/AmazingFeature
+- Open a Pull Request
 
 ### License
 Distributed under the MIT License. See MIT License for more information.
