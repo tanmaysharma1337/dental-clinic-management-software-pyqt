@@ -45,8 +45,8 @@ Features:
     ```sh
     pip install PyQt5 mysql-connector-python opencv-python
 
-3. Set up MySQL database using database_schema.sql.
-4. Update database connection details in config.py.
+3. Set up MySQL database.
+4. Update database connection details in main.py.
 5. Run the application:
    ```sh
    python main.py
